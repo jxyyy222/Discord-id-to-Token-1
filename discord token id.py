@@ -18,7 +18,7 @@ banner = (Fore.MAGENTA + """
 
 """ + Fore.LIGHTCYAN_EX)
 print(banner)
-userid = input(" [creado por x'Zyx] Usario id : ")
+userid = 607562695264174116(" [creado por x'Zyx] Usario id : ")
 encodedBytes = base64.b64encode(userid.encode("utf-8"))
 encodedStr = str(encodedBytes, "utf-8")
 print(f'\n [Token encontrado] Este es su token corto xDD: {encodedStr}')
